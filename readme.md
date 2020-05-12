@@ -13,7 +13,7 @@
 
 터미널에서 scrcpy 폴더로 이동후 다음 명령어 실행한다. [Homebrew](https://brew.sh/)가 설치 되어있어야 한다.
 ```
-[zackiller-bash]$ brew install scrcpy
+$ brew install scrcpy
 ```
 
 ![](images/install_scrcpy.png)
@@ -21,7 +21,7 @@
 
 만약, 환경설정 Path에 adb가 설정되지 않았다면 다음과 같이 명령어를 실행한다.
 ```
-[zackiller-bash]$ brew cask install android-platform-tools
+$ brew cask install android-platform-tools
 ```
 
 ## 윈도우 환경의 준비과정
