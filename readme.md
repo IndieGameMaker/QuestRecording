@@ -19,7 +19,9 @@ $ brew install scrcpy
 ![](images/install_scrcpy.png)
 
 
-만약, 환경설정 Path에 adb가 설정되지 않았다면 다음과 같이 명령어를 실행한다.
+만약, adb 환경설정이 안되어있다면 다음 페이지를 방문해 설정한다. ~~adb가 설정되지 않았다면 anroid-platform-tools를 설치한다.~~
+[](https://developer.android.com/studio/command-line/adb#Enabling)
+
 ```
 $ brew cask install android-platform-tools
 ```
