@@ -1,8 +1,8 @@
 # 오큘러스 퀘스트의 영상 녹화 또는 실시간 방송
 
-오큘러스 퀘스트의 로비(홈 화면)의 메인 메뉴에 [녹화] 기능이 있으나 개발중인 콘텐츠는 동영상을 녹화할 수 없지만 다음과 같은 방법으로 실시간으로 영상을 송출하거나 또는 동영상을 녹화하는 방법을 소개한다.
+오큘러스 퀘스트는 2019년 말에 [오큘러스 링크(Link)](https://support.oculus.com/444256562873335/) 기능을 추가해 Vive와 같이 콘텐츠를 PC에서 구동하는 기능을 지원하기 시작했다. 유니티로 개발한다면 Game View를 통해 즉시 확인할 수 있어  매번 빌드해서 결과를 확인하던 방식에 비해 개발 환경이 쾌적해졌다.
 
-- [본 문서는 다음 동영상을 참조했음](https://www.youtube.com/watch?v=Ora7OrQHwEs&feature=youtu.be)
+이번 포스팅은 오큘러스 퀘스트의 콘텐츠 실행화면을 실시간 송출하거나 녹화하는 환경을 소개한다. 물론 오큘러스 퀘스트의 로비의 메인 메뉴에 [녹화] 기능이 있으나 개발중인 콘텐츠의 동영상을 녹화할 수 없다. 따라서, 다음과 같이 scrcpy를 사용해 실시간으로 영상을 송출하거나 또는 동영상을 녹화하는 방법을 소개한다.
 
 ## 맥/리눅스 환경의 준비과정
 
@@ -51,7 +51,7 @@ $ brew cask install android-platform-tools
 ```
 scrcpy
 ```
-![](images/capture1.png)
+![](images/quest_recording1.png)
 
 
 - 크롭 기능 (오큘러스 퀘스트 2880:1600 - 한쪽 눈 1440:1600)
@@ -60,5 +60,6 @@ scrcpy
 scrcpy --crop 1440:1600:0:0
 ```
 
-![](images/capture2.png)
+![](images/quest_recording2.png)
 
+- [본 문서는 다음 동영상을 참조했음](https://www.youtube.com/watch?v=Ora7OrQHwEs&feature=youtu.be)
